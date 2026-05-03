@@ -20,14 +20,14 @@ const Navbar = () => {
 
 
     
-    <nav className="w-full bg-white text-white sticky top-0 z-50 shadow-md">
+    <nav className="w-full text-white sticky top-0 z-50 ">
 
       {/* TOP BAR */}
       <div className="flex items-center justify-between px-4 md:px-10 h-16">
 
         {/* LOGO */}
         <Link to="/" className="text-4xl font-bold text-black">
-          IMRUL <span className="text-blue-500">Corporation</span>
+          IMRUL <span className="text-blue-500 text-2xl">Exclusive Catering</span>
         </Link>
 
         {/* DESKTOP MENU */}
