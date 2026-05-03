@@ -1,14 +1,15 @@
 
-import './App.css'
+
+import Footer from './components/Footer'
+import Navbar from './components/Navber'
 
 function App() {
 
 
   return (
    <div>
-    <h1 className='text-3xl font-bold text-red-500'>
-      lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate!
-    </h1>
+<Navbar></Navbar>
+<Footer></Footer>
    </div>
   )
 }
