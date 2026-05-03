@@ -124,7 +124,7 @@ const Hero = () => {
 
       {/* Floating Badge (Black & Blue theme) */}
       <div className="absolute bottom-10 right-10 hidden lg:block bg-gray-900 border border-gray-800 p-4 rounded-xl shadow-2xl animate-bounce">
-        <p className="text-blue-600 font-bold text-sm">🔥 100+ Events Completed</p>
+        <p className="text-blue-600 font-bold text-sm">100+ Events <span>Completed</span> </p>
       </div>
     </section>
   );
